@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build
+dist/
+build/
+.vite/
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Local DB / temp
+*.db
+*.db-*
+login.json
+clogin.json
+
+# Deploy
+.vercel
+.netlify
