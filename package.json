@@ -2,6 +2,7 @@
   "name": "returnshield-ai",
   "private": true,
   "version": "1.0.0",
+  "type": "module",
   "description": "ReturnShield AI — React frontend + Express/MongoDB backend",
   "scripts": {
     "dev:server": "npm run dev --prefix server",
